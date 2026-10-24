@@ -7,21 +7,17 @@
 
   <title>Stay Safe on UPI with UPI SAATHI</title>
   <meta name="description"
-        content="Important UPI safety tips. View the poster.">
+        content="Important UPI safety tips. View the UPI SAATHI poster.">
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="Stay Safe on UPI">
   <meta property="og:description"
         content="Important UPI safety tips. View the poster.">
-  <meta property="og:image"
-        content="https://raw.githubusercontent.com/Anagh-Deshmukh/upi-saathi/main/UPI_SAATHI_-_Your_UPI_Safety_Coach_Poster.pdf">
-  <meta property="og:image:alt"
-        content="Stay Safe on UPI poster">
 
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Stay Safe on UPI">
-  <meta name="twitter:image"
-        content="https://raw.githubusercontent.com/Anagh-Deshmukh/upi-saathi/main/UPI_SAATHI_-_Your_UPI_Safety_Coach_Poster.pdf">
+  <meta name="twitter:description"
+        content="Important UPI safety tips.">
 
   <style>
     body {
@@ -30,24 +26,61 @@
       margin: 0;
       padding: 24px 12px;
       background: #f5f5f5;
+      color: #222;
     }
-    img {
-      max-width: 100%;
-      height: auto;
-    }
+
     main {
-      max-width: 700px;
+      max-width: 900px;
       margin: auto;
+    }
+
+    .pdf-viewer {
+      width: 100%;
+      height: 75vh;
+      min-height: 500px;
+      border: 0;
+      background: white;
+    }
+
+    .pdf-link {
+      display: inline-block;
+      margin: 16px 8px;
+      padding: 12px 18px;
+      background: #075bc8;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
     }
   </style>
 </head>
+
 <body>
   <main>
     <h1>Stay Safe on UPI</h1>
-    <p>Important UPI safety tips.</p>
-    <img
+    <p>Important UPI safety tips from UPI SAATHI.</p>
+
+    <iframe
+      class="pdf-viewer"
       src="https://raw.githubusercontent.com/Anagh-Deshmukh/upi-saathi/main/UPI_SAATHI_-_Your_UPI_Safety_Coach_Poster.pdf"
-      alt="Stay Safe on UPI poster">
+      title="UPI SAATHI safety poster PDF">
+    </iframe>
+
+    <p>
+      Having trouble viewing the poster?
+    </p>
+
+    <a class="pdf-link"
+       href="https://raw.githubusercontent.com/Anagh-Deshmukh/upi-saathi/main/UPI_SAATHI_-_Your_UPI_Safety_Coach_Poster.pdf"
+       target="_blank"
+       rel="noopener">
+      Open PDF
+    </a>
+
+    <a class="pdf-link"
+       href="https://raw.githubusercontent.com/Anagh-Deshmukh/upi-saathi/main/UPI_SAATHI_-_Your_UPI_Safety_Coach_Poster.pdf"
+       download>
+      Download PDF
+    </a>
   </main>
 </body>
 </html>
